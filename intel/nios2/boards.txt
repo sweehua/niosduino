@@ -1,0 +1,38 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+atlas.name=Nios II CV SoC
+
+atlas.build.mcu=nios2
+atlas.build.f_cpu=16000000L
+atlas.build.board=ALTR_ATLAS
+atlas.build.core=arduino
+atlas.build.variant=standard
+
+# atlas.vid.0=0x2341
+# atlas.pid.0=0x0043
+# atlas.vid.1=0x2341
+# atlas.pid.1=0x0001
+# atlas.vid.2=0x2A03
+# atlas.pid.2=0x0043
+# atlas.vid.3=0x2341
+# atlas.pid.3=0x0243
+
+atlas.upload.tool=avrdude
+atlas.upload.protocol=arduino
+atlas.upload.maximum_size=32256
+atlas.upload.maximum_data_size=2048
+atlas.upload.speed=115200
+
+# atlas.bootloader.tool=avrdude
+# atlas.bootloader.low_fuses=0xFF
+# atlas.bootloader.high_fuses=0xDE
+# atlas.bootloader.extended_fuses=0x05
+# atlas.bootloader.unlock_bits=0x3F
+# atlas.bootloader.lock_bits=0x0F
+# atlas.bootloader.file=optiboot/optiboot_atmega328.hex
+
+##############################################################
