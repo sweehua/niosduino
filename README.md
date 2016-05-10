@@ -3,7 +3,9 @@ Create necessary library&to allow Arduino IDE compile for Nios II target.
 
 Install:
 
-    put intel folder under _arduino_installation_dir_/hardware directory, i.e.: _arduino_installation_dir_/hardware/intel/....
+    put intel folder under _arduino_installation_dir_/hardware directory
+    
+    i.e.: _arduino_installation_dir_/hardware/intel/....
 
 Status:
 
