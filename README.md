@@ -1,8 +1,14 @@
-# Nios II on Arduino
-create necessary library to allow Arduino IDE compile with Nios II target.
-Still very early development, just able to compile a hello world program. 
-Major porting of arduino core library code needed.
+# Nios II on Arduino IDE
+Create necessary library&to allow Arduino IDE compile for Nios II target.
 
-Require seperate installtion of Nios II GCC toolchain, I install ACDS 15.1 Lite
+Install:
+   put intel folder under _arduino_installation_dir_/hardware directory, i.e.: _arduino_installation_dir_/hardware/intel/....
 
-Just copy and put entire intel folder into arduino_install_dir/hardware/intel folder, and modify platform.txt to point to nios2-elf-gcc directory
+Status:
+   Available:
+      - compilation, with standard Nios II HAL code
+      - Nios II HAL
+      - Jtag Uart IP HAL driver
+    Not Available:
+      - Arduino library need porting
+      - hexdump & programming
