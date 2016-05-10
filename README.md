@@ -6,9 +6,16 @@ Install:
 
 Status:
    Available:
+   
       - compilation, with standard Nios II HAL code
+      
       - Nios II HAL
+      
       - Jtag Uart IP HAL driver
+      
     Not Available:
+    
       - Arduino library need porting
+      
       - hexdump & programming
+      
