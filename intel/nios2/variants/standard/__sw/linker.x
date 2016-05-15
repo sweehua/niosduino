@@ -51,7 +51,7 @@
 MEMORY
 {
     reset : ORIGIN = 0x0, LENGTH = 32
-    ram : ORIGIN = 0x20, LENGTH = 65504
+    ram : ORIGIN = 0x20, LENGTH = 262112
 }
 
 /* Define symbols for each memory base-address */

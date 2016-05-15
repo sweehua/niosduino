@@ -27,7 +27,8 @@ compiler.c.elf.flags={compiler.warning_flags} -Os -Wl,--gc-sections
 compiler.c.elf.cmd=nios2-elf-g++
 compiler.S.flags=-c -g -x assembler-with-cpp
 compiler.cpp.cmd=nios2-elf-g++
-compiler.cpp.flags=-c -g -Os {compiler.warning_flags} -std=gnu++11 -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD
+compiler.cpp.flags=-c -g -Os {compiler.warning_flags} -std=c++0x -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -felide-constructors -MMD
+# -std=c++0x -std=gnu++11
 compiler.ar.cmd=nios2-elf-ar
 compiler.ar.flags=rcs
 compiler.objcopy.cmd=nios2-elf-objcopy

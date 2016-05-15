@@ -23,7 +23,7 @@ atlas.build.variant=standard
 
 atlas.upload.tool=avrdude
 atlas.upload.protocol=arduino
-atlas.upload.maximum_size=32256
+atlas.upload.maximum_size=262144
 atlas.upload.maximum_data_size=2048
 atlas.upload.speed=115200
 
