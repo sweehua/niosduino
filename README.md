@@ -1,5 +1,5 @@
 # Nios II on Arduino IDE
-Create necessary library&to allow Arduino IDE compile for Nios II target.
+Create necessary library to allow Arduino IDE to compile and download code to Nios II.
 
 Install:
 
